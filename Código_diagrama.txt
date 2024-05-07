@@ -1,0 +1,85 @@
+title Car Sales System
+
+user [icon: user] {
+  id string pk
+  login string
+  password string
+  email string
+  status string
+  telephone string
+  role enum { SELLER, MANAGER, ADMIN }
+  manager user
+  mediaId string fk
+}
+car [icon: car, color: blue] {
+  id string pk
+  name string
+  releaseYear number
+  km number
+  price number
+  status enum { ACTIVE, INACTIVE, SOLD }
+  type enum {Sedan, SUV, Convertible, Truck, Coupe}
+  transmission enum { Manual, Automatic}
+  color enum {Black, White, Red, Blue, Silver}
+  fuel enum {Petrol, Diesel, Electric, Hybrid}
+  createdAt date
+  modelId model
+}
+brand [icon: ai] {
+  id string pk
+  name string
+}
+revision [icon: tool] {
+  id string pk
+  date date
+  km number
+  carId string fk
+  garageId string fk
+}
+garage [icon: home] {
+  id string pk
+  telephone string
+  cnpj string
+  responsible string
+  addressId string fk
+}
+address [icon: map] {
+  id string pk
+  street string
+  lat number
+  lng number
+}
+model [icon: azure-module] {
+  id string pk
+  name string
+  brandId string fk
+}
+media [icon:image] {
+  id string pk
+  url string
+}
+car_media [icon: sharepoint] {
+  id string pk
+  carId string fk
+  mediaId string fk
+}
+sale [icon: money] {
+  id string pk
+  buyerName string
+  buyerTelephone string
+  buyerCpf string
+  date date
+  responsibleId user
+  carId car
+}
+
+user.mediaId > media.id
+car_media.carId > car.id
+car_media.mediaId > media.id
+model.brandId > brand.id
+car.modelId > model.id
+revision.garageId > garage.id
+garage.addressId > address.id
+user.manager > user.manager
+car > revision.carId
+sale.carId - car
