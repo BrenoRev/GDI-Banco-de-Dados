@@ -2,7 +2,7 @@
 
 <h3> Participantes 💻</h3>
 
-| [<img src="https://avatars.githubusercontent.com/u/84048306?v=4" width=115><br><sub>Breno Silva</sub>](https://github.com/BrenoRev) | [<img src="https://avatars.githubusercontent.com/u/83253838?v=4" width=115><br><sub>Joao Henrique</sub>](https://github.com/joaohenriquebrs) | [<img src="https://avatars.githubusercontent.com/u/61971708?v=4" width=115><br><sub>Thiago Victor</sub>](https://github.com/tvas20) | [<img src="https://avatars.githubusercontent.com/u/62074916?v=4" width=115><br><sub>Gabriel Tavares</sub>](https://github.com/booleangabs)
+| [<img src="https://avatars.githubusercontent.com/u/84048306?v=4" width=115><br><sub>Breno Silva</sub>](https://github.com/BrenoRev) | [<img src="https://avatars.githubusercontent.com/u/83253838?v=4" width=115><br><sub>Joao Henrique</sub>](https://github.com/joaohenriquebrs) | [<img src="https://avatars.githubusercontent.com/u/61971708?v=4" width=115><br><sub>Tiago Victor</sub>](https://github.com/tvas20) | [<img src="https://avatars.githubusercontent.com/u/62074916?v=4" width=115><br><sub>Gabriel Tavares</sub>](https://github.com/booleangabs)
 | :---: | :---: | :---: | :---:
 
 ## Descrição
