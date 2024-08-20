@@ -6,11 +6,14 @@
 | :---: | :---: | :---: | :---:
 
 ## Descrição
-A aplicação representa uma loja de carros onde usuários podem buscar, visualizar e adquirir veículos. Cada carro está associado a um modelo e uma marca específicos, enquanto os usuários têm perfis pessoais com informações como nome, endereço e histórico de compras. Além disso, mídias relacionadas aos carros e usuários, como fotos e vídeos, são disponibilizadas para melhorar a experiência de compra.
+A CarComm é uma empresa no ramo de e-commerce, especializada na venda de automóveis e prestação de serviços. Como parte desse ambiente vamos também armazenar informações relevantes sobre os nossos usuários, funcionários e procedimentos internos. Os objetivos da plataforma são:
+- Facilitar a compra de carros online: Permitir que os clientes busquem carros, façam pedidos.
+- Gerenciamento do inventário e pedidos: Ajudar os funcionários a monitorar e gerenciar o inventário de carros e processar pedidos.
+- Gerenciamento de pedidos: Monitorar e registrar os status da execução dos pedidos feitos (entrega, pagamento).
+- Relatórios de vendas e avaliações: Fornecer relatórios detalhados sobre vendas, avaliações de clientes e desempenho dos funcionários.
 
-### Nesse projeto foi utilizado o Eraser para modelagem dos dados
-https://app.eraser.io/
 
-### Link do relatório do minimundo:
-https://docs.google.com/document/d/1zaSFFmld8zB93d0JzhWxcre7Bbp1lC_rT_9zarPlhVc/edit?usp=sharing
+## Organização
 
+Assets -> Documentos de modelagem
+Scripts -> Arquivos .sql (nomeados de acordo com sua função)
