@@ -382,6 +382,36 @@ begin
 end casewhen_;
 /
 
+-- 11
+-- WHILE
+-- Procura usuario baseado no seu numero de telefone
+<<whileloop_>>
+declare
+    cpf_novo telefone.cpf_usu%TYPE;
+    telefone_novo telefone.num_telefone%TYPE;
+
+    CURSOR c1 IS 
+    SELECT CPF_USU, NUM_TELEFONE FROM TELEFONE;
+
+BEGIN
+    OPEN c1; -- Abre o cursor
+    
+    FETCH c1 INTO cpf_novo, telefone_novo; -- Busca a primeira linha
+    
+    WHILE c1%FOUND LOOP -- Enquanto houver registros
+
+		if telefone_novo = 978274156 then
+    		dbms_output.put_line(cpf_novo || ' | ' || telefone_novo || ' - USUARIO ENCONTRADO'); -- printa o resultado
+        else
+        	dbms_output.put_line('------'); -- printa o resultado
+        end if;
+
+        FETCH c1 INTO cpf_novo, telefone_novo; -- Busca a próxima linha
+    END LOOP;
+    
+    CLOSE c1; -- Fecha o cursor
+END whileloop_;
+
 -- 14
 -- CURSOR (OPEN, FETCH, CLOSE)
 -- Printar usuários ordenados por data de adesão
