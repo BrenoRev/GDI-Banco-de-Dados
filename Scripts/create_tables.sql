@@ -190,3 +190,23 @@ ALTER TABLE FUNCIONARIO
     ADD CONSTRAINT CHK_CARGO_FUNC CHECK (
         CARGO_FUNC IN ('VENDEDOR', 'GERENTE')
     );
+
+
+-- Trigger Audit Table AV4
+
+CREATE TABLE VendaAudit (
+    id_audit NUMBER PRIMARY KEY,
+    chassi_car VARCHAR2(17),
+    hash_ped VARCHAR2(64),
+    cpf_func VARCHAR2(14),
+    nome_func VARCHAR2(100),
+    cpf_cli VARCHAR2(14),
+    nome_cli VARCHAR2(100),
+    valor_total NUMBER,
+    data_venda DATE
+);
+
+CREATE SEQUENCE SEQ_VENDA_AUDIT_ID
+START WITH 1
+INCREMENT BY 1
+NOCACHE;
