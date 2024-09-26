@@ -1254,7 +1254,7 @@ DECLARE
     pedido1 REF tp_Pedido;
 BEGIN
     INSERT INTO PAGAMENTOPEDIDO_TABLE VALUES (
-        tp_PagamentoPedido(1, pedido1, 201, 'Cartão de Crédito', 1500.00)
+        tp_PagamentoPedido(1, pedido1, 201, 'CARTAO', 1500.00)
     );
 END;
 /
