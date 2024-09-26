@@ -1231,7 +1231,7 @@ DECLARE
     servico1 REF tp_Servico;
 BEGIN
     INSERT INTO PAGAMENTOSERVICO_TABLE VALUES (
-        tp_PagamentoServico(1, servico1, 101, 'Cartão de Crédito')
+        tp_PagamentoServico(1, servico1, 101, 'CARTAO')
     );
 END;
 /
