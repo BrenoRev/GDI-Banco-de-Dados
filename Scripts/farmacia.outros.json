@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "66fde84952cfd29978b7b40d"
+  },
+  "nome": "Creme Dental",
+  "marca": "Colgate",
+  "preco": 7.99,
+  "quantidade_estoque": 150
+},
+{
+  "_id": {
+    "$oid": "66fde84952cfd29978b7b40e"
+  },
+  "nome": "Escova de Dentes",
+  "marca": "Oral-B",
+  "preco": 12.5,
+  "quantidade_estoque": 200
+},
+{
+  "_id": {
+    "$oid": "66fde84952cfd29978b7b40f"
+  },
+  "nome": "Shampoo",
+  "marca": "Pantene",
+  "preco": 14.9,
+  "quantidade_estoque": 80
+},
+{
+  "_id": {
+    "$oid": "66fde84952cfd29978b7b410"
+  },
+  "nome": "Desodorante",
+  "marca": "Dove",
+  "preco": 9.99,
+  "quantidade_estoque": 120
+},
+{
+  "_id": {
+    "$oid": "66fde84952cfd29978b7b411"
+  },
+  "nome": "Sabonete Líquido",
+  "marca": "Lux",
+  "preco": 5.5,
+  "quantidade_estoque": 250
+}]

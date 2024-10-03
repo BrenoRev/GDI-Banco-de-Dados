@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "66fddf1e52cfd29978b7b3fe"
+  },
+  "nome": "Paracetamol",
+  "miligrama": 500,
+  "preco": 10.5,
+  "quantidadeEmEstoque": 100
+},
+{
+  "_id": {
+    "$oid": "66fddf1e52cfd29978b7b3ff"
+  },
+  "nome": "Ibuprofeno",
+  "miligrama": 400,
+  "preco": 15,
+  "quantidadeEmEstoque": 50
+},
+{
+  "_id": {
+    "$oid": "66fddf1e52cfd29978b7b400"
+  },
+  "nome": "Dipirona",
+  "miligrama": 1000,
+  "preco": 8.25,
+  "quantidadeEmEstoque": 200
+},
+{
+  "_id": {
+    "$oid": "66fddf1e52cfd29978b7b401"
+  },
+  "nome": "Amoxicilina",
+  "miligrama": 500,
+  "preco": 18.9,
+  "quantidadeEmEstoque": 30
+},
+{
+  "_id": {
+    "$oid": "66fddf1e52cfd29978b7b402"
+  },
+  "nome": "Omeprazol",
+  "miligrama": 20,
+  "preco": 12,
+  "quantidadeEmEstoque": 75
+}]

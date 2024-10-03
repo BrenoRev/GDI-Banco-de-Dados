@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "66fdd8f03a87d2a2b0c73bf9"
+  },
+  "nome": "raimunda valesca",
+  "idade": {
+    "$numberLong": "27"
+  },
+  "cpf": "12312312312",
+  "cargo": "auxiliar de limpeza",
+  "salario": 1500
+},
+{
+  "_id": {
+    "$oid": "66fdd9f43a87d2a2b0c73bfa"
+  },
+  "nome": "vicent prego",
+  "idade": {
+    "$numberLong": "25"
+  },
+  "cpf": "12312312321",
+  "cargo": "farmaceutico",
+  "salario": 3000
+},
+{
+  "_id": {
+    "$oid": "66fddcce3a87d2a2b0c73bfb"
+  },
+  "nome": "thais karla",
+  "idade": {
+    "$numberLong": "24"
+  },
+  "cpf": "31312312321",
+  "cargo": "balconista",
+  "salario": 1700
+},
+{
+  "_id": {
+    "$oid": "66fddcce3a87d2a2b0c73bfc"
+  },
+  "nome": "Lauren redcliff",
+  "idade": "32",
+  "cpf": "43243243255",
+  "cargo": "gerente",
+  "salario": "4000",
+  "hora_entrada": "6:45",
+  "pausa": "10:30"
+}]
